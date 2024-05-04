@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: 1
-zhihu_username: 1
-github_username: 1
-twitter_username: 1
+weibo_username: 0
+zhihu_username: 0
+github_username: 0
+twitter_username: 0
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -33,6 +33,7 @@ exclude:
     "package.json",
     "README.md",
     "README.zh.md",
+    "post_backup",
   ]
 anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
